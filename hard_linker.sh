@@ -32,6 +32,7 @@ sk_himo="textures/skirt/himo"
 sk_gloves="textures/skirt/gloves"
 sk_pants="textures/skirt/pants"
 sk_china="textures/skirt/china"
+sk_magical_girl="textures/skirt/magical_girl"
 
 function pad_slot {
   printf "%02d" $i
@@ -76,7 +77,7 @@ link_underwear $si_sweater "7"
 link_skirt $skirt "0 4 7"
 
 # CC
-link_underwear $si_sailor "8 9 10 12 13 15 18 19 21 24 27 29 35 44 45 47 52 59 60 61 62 63 64 65 67 68 69 71 72 74 75 76 78 79 80 85 87 89 90 91 92 95 96 97 98 99 100 101 102 103 106 108 109 110 111 134 136 137 140 141 142 146 147 148 149 155 156 231 240 255"
+link_underwear $si_sailor "8 9 10 12 13 15 18 19 21 24 27 29 35 44 45 47 52 59 60 61 62 63 64 65 67 68 69 71 72 74 75 76 78 79 80 85 87 89 90 91 92 95 96 97 98 99 100 101 102 103 106 108 109 110 111 134 136 137 140 141 142 146 147 148 149 155 156 193 194 195 196 197 200 201 202 203 204 205 206 207 209 212 213 218 221 230 231 239 240 241 255"
 link_underwear $si_blazer "14 25 30 31 32 37 38 39 40 41 46 49 50 51 66 81 82 84 86 88 221"
 link_underwear $si_sweater "33 34 55 56 70 73 77 94 164 165 182 183 184 185 190 191 192 208 210 211 217 226 227 228 229"
 link_underwear $si_track "23 54 105"
@@ -103,3 +104,5 @@ link_skirt $sk_hcswimsuit "48 150"
 link_skirt $sk_gloves "84 85 93 94"
 link_skirt $sk_pants "104 106"
 link_skirt $sk_china "162"
+link_skirt $sk_ppd_kimono "203 204"
+link_skirt $magical_girl "202"
