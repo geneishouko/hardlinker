@@ -50,6 +50,8 @@ sk_hoodie="textures/skirt/hoodie"
 sk_hs_cardigan="textures/skirt/hs_cardigan"
 sk_shorts="textures/skirt/shorts"
 sk_ichigo="textures/skirt/ichigo"
+sk_fantasy_armor="textures/skirt/fantasy_armor"
+sk_fantasy_bodysuit="textures/skirt/fantasy_bodysuit"
 
 function pad_slot {
   printf "%02d" $1
@@ -211,10 +213,6 @@ link_underwear $si_sailor "176 177"
 link_skirt $skirt "176 177"
 
 # Clothing Collection R 181
-link_underwear $si_sailor ""
-link_underwear $si_blazer ""
-link_underwear $si_sweater ""
-link_skirt $skirt ""
 
 # Clothing Collection S 193-194
 link_underwear $si_sailor "193 194"
@@ -278,6 +276,9 @@ link_skirt $sk_ppd_kimono "203 204"
 link_skirt $sk_ppd_miko "205"
 link_skirt $sk_magical_girl "202"
 link_skirt $sk_china2 "162"
+link_skirt $sk_china2 "162"
+link_skirt $sk_fantasy_armor= "224 225"
+link_skirt $sk_fantasy_bodysuit= "222 223"
 
 # Closed Blazer
 link_skirt $skirt "158"
@@ -315,6 +316,8 @@ link_skirt $skirt "182 183 184 188"
 link_skirt $sk_teacher_skirt "185 186 187"
 
 # Unorganized
-link_underwear $si_sailor "218 219 220 230 231 255"
-link_underwear $si_sweater "226"
-link_skirt $skirt "218 231 255"
+link_underwear $si_sailor "218 219 220 230 231 234 255"
+link_underwear $si_blazer "237"
+link_underwear $si_sweater "226 249"
+link_skirt $skirt "218 231 245 255"
+link_skirt $sk_teacher_skirt "249"
