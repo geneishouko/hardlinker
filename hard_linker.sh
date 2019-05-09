@@ -277,8 +277,8 @@ link_skirt $sk_ppd_miko "205"
 link_skirt $sk_magical_girl "202"
 link_skirt $sk_china2 "162"
 link_skirt $sk_china2 "162"
-link_skirt $sk_fantasy_armor= "224 225"
-link_skirt $sk_fantasy_bodysuit= "222 223"
+link_skirt $sk_fantasy_armor "224 225"
+link_skirt $sk_fantasy_bodysuit "222 223"
 
 # Closed Blazer
 link_skirt $skirt "158"
@@ -321,3 +321,8 @@ link_underwear $si_blazer "237"
 link_underwear $si_sweater "226 249"
 link_skirt $skirt "218 231 245 255"
 link_skirt $sk_teacher_skirt "249"
+
+if test -f custom_linker.sh; then
+  echo Executing custom hard linker
+  source custom_linker.sh
+fi
