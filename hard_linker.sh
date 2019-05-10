@@ -40,7 +40,6 @@ sk_spats="textures/skirt/spats"
 sk_hcswimsuit="textures/skirt/high_cut_swimsuit"
 sk_tshirt="textures/skirt/sports_top"
 sk_bloomers="textures/skirt/bloomers"
-sk_himo="textures/skirt/himo"
 sk_gloves="textures/skirt/gloves"
 sk_pants="textures/skirt/pants"
 sk_china2="textures/skirt/china2"
@@ -52,6 +51,7 @@ sk_shorts="textures/skirt/shorts"
 sk_ichigo="textures/skirt/ichigo"
 sk_fantasy_armor="textures/skirt/fantasy_armor"
 sk_fantasy_bodysuit="textures/skirt/fantasy_bodysuit"
+sk_overalls="textures/skirt/overalls"
 
 function pad_slot {
   printf "%02d" $1
@@ -252,6 +252,7 @@ link_underwear $si_blazer "239 240 242 244"
 link_skirt $sk_sundress "240"
 link_skirt $sk_hoodie "239"
 link_skirt $sk_hs_cardigan "244"
+link_skirt $sk_overalls "241"
 
 # tot
 link_underwear $si_sailor "233"
